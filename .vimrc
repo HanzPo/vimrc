@@ -7,6 +7,8 @@ set smartindent
 set mouse=a
 set modifiable
 set encoding=utf-8
+syntax on
+filetype on
 
 function AddTemplate(tmpl_file)
     exe "0read " . a:tmpl_file
